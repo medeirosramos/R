@@ -6,6 +6,9 @@ Testes e validações na linguagem R
 ```
 R.exe
 install.packages("devtools")
+
+install.packages("IRkernel")
+
 devtools::install_github("IRkernel/IRkernel")
 IRkernel::installspec()
 ```
